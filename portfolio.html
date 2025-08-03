@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - TechCorp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">TechCorp</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our latest projects and success stories</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-container">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>E-Learning Platform</h3>
+                                <p>Modern educational platform with interactive features</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="elearning">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>E-Learning Platform</h4>
+                        <span class="portfolio-category">Web Development</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Fitness Tracker App</h3>
+                                <p>Cross-platform mobile app for health tracking</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="fitness">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Fitness Tracker App</h4>
+                        <span class="portfolio-category">Mobile Development</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ecommerce" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Fashion Store</h3>
+                                <p>Complete e-commerce solution with payment integration</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="fashion">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Fashion Store</h4>
+                        <span class="portfolio-category">E-commerce</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Banking App UI</h3>
+                                <p>Modern and secure banking application interface</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="banking">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Banking App UI</h4>
+                        <span class="portfolio-category">UI/UX Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Analytics Dashboard</h3>
+                                <p>Real-time data visualization and reporting platform</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="analytics">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Analytics Dashboard</h4>
+                        <span class="portfolio-category">Web Development</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Food Delivery App</h3>
+                                <p>Complete food ordering and delivery ecosystem</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-project="food">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Food Delivery App</h4>
+                        <span class="portfolio-category">Mobile Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <div class="modal-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modal-title">Project Title</h3>
+                    <p id="modal-description">Project description will be displayed here.</p>
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <strong>Client:</strong>
+                            <span id="modal-client">Client Name</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Category:</strong>
+                            <span id="modal-category">Category</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Technologies:</strong>
+                            <span id="modal-technologies">Technologies Used</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Duration:</strong>
+                            <span id="modal-duration">Project Duration</span>
+                        </div>
+                    </div>
+                    <div class="modal-features">
+                        <h4>Key Features:</h4>
+                        <ul id="modal-features-list">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul>
+                    </div>
+                    <div class="modal-buttons">
+                        <a href="#" class="btn btn-primary">View Live Site</a>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p>"TechCorp transformed our outdated system into a modern, efficient platform. Their expertise and dedication exceeded our expectations."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <span>CEO, InnovateTech</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"The mobile app they developed for us has significantly improved our customer engagement and sales. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Wilson</h4>
+                                <span>Marketing Director, RetailCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Professional, reliable, and innovative. TechCorp delivered exactly what we needed within budget and on time."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Brown</h4>
+                                <span>Founder, StartupX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how we can bring your vision to life with our expertise and creativity.</p>
+                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechCorp</h3>
+                    <p>Innovative business solutions for the modern world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@techcorp.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Business St, Tech City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechCorp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
