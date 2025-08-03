@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TechCorp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">TechCorp</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive technology solutions tailored to your business needs</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-grid">
+        <div class="container">
+            <div class="services-filter">
+                <button class="filter-btn active" data-filter="all">All Services</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="consulting">Consulting</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="support">Support</button>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-card" data-category="development" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern technologies and best practices.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Modern Frameworks</li>
+                        <li>SEO Optimization</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <div class="service-price">Starting at $5,000</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+
+                <div class="service-card" data-category="development" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                    <ul class="service-features">
+                        <li>Native Performance</li>
+                        <li>Cross-platform Solutions</li>
+                        <li>App Store Optimization</li>
+                        <li>Backend Integration</li>
+                    </ul>
+                    <div class="service-price">Starting at $8,000</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+
+                <div class="service-card" data-category="consulting" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Strategy</h3>
+                    <p>Comprehensive digital transformation strategies for business growth.</p>
+                    <ul class="service-features">
+                        <li>Market Analysis</li>
+                        <li>Technology Roadmap</li>
+                        <li>ROI Optimization</li>
+                        <li>Implementation Planning</li>
+                    </ul>
+                    <div class="service-price">Starting at $3,000</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+
+                <div class="service-card" data-category="design" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance user experience and engagement.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>Visual Design</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                    <div class="service-price">Starting at $2,500</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+
+                <div class="service-card" data-category="development" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and migration services for modern businesses.</p>
+                    <ul class="service-features">
+                        <li>Cloud Migration</li>
+                        <li>DevOps Implementation</li>
+                        <li>Scalability Planning</li>
+                        <li>Security Optimization</li>
+                    </ul>
+                    <div class="service-price">Starting at $4,000</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+
+                <div class="service-card" data-category="support" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock technical support and maintenance for your applications.</p>
+                    <ul class="service-features">
+                        <li>24/7 Monitoring</li>
+                        <li>Quick Response</li>
+                        <li>Regular Updates</li>
+                        <li>Performance Reports</li>
+                    </ul>
+                    <div class="service-price">Starting at $500/month</div>
+                    <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Our Process</h2>
+            <p class="section-subtitle">How we deliver exceptional results</p>
+            <div class="process-steps">
+                <div class="process-step" data-aos="fade-up">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery</h3>
+                        <p>We start by understanding your business goals, challenges, and requirements through detailed consultation.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Planning</h3>
+                        <p>Our team creates a comprehensive project plan with timelines, milestones, and resource allocation.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Development</h3>
+                        <p>We execute the plan using agile methodologies, keeping you informed throughout the development process.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Delivery</h3>
+                        <p>After thorough testing and quality assurance, we deliver the final solution and provide ongoing support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your needs</p>
+            <div class="pricing-toggle">
+                <span class="toggle-label">Monthly</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="pricing-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="toggle-label">Annual</span>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount" data-monthly="99" data-annual="990">99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Basic website design</li>
+                        <li><i class="fas fa-check"></i> Mobile responsive</li>
+                        <li><i class="fas fa-check"></i> Basic SEO</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                        <li><i class="fas fa-times"></i> Custom features</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount" data-monthly="199" data-annual="1990">199</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Custom web application</li>
+                        <li><i class="fas fa-check"></i> Advanced features</li>
+                        <li><i class="fas fa-check"></i> SEO optimization</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> Analytics integration</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount" data-monthly="399" data-annual="3990">399</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full-scale solution</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                        <li><i class="fas fa-check"></i> Dedicated team</li>
+                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechCorp</h3>
+                    <p>Innovative business solutions for the modern world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@techcorp.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Business St, Tech City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechCorp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
